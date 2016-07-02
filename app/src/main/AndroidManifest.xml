@@ -11,17 +11,25 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                android:screenOrientation="portrait"
+                <category android:name="android.intent.category.LAUNCHER"
+                    />
             </intent-filter>
         </activity>
-        <activity android:name=".AllFactsActivity"/>
-        <activity android:name=".CategoryActivity"/>
-        <activity android:name=".FactsActivity"/>
-        <activity android:name=".FactActivity"/>
-        <activity android:name=".TopFactsActivity"/>
-        <activity android:name=".FavoritesActivity"/>
-        <activity android:name=".DeskActivity"/>
+        <activity android:name=".AllFactsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CategoryActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".FactsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".FactActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TopFactsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".FavoritesActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".DeskActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />
