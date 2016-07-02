@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/deskItem_image_userImage"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/avatar1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:id="@+id/deskItem_imageView_Star1"
+        android:layout_alignTop="@+id/deskItem_image_userImage"
+        android:layout_toRightOf="@+id/deskItem_image_userImage"
+        android:layout_toEndOf="@+id/deskItem_image_userImage"
+        android:src="@drawable/star"
+        android:layout_marginLeft="10dp" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:id="@+id/deskItem_imageView_Star2"
+        android:src="@drawable/star_off"
+        android:layout_alignTop="@+id/deskItem_imageView_Star1"
+        android:layout_toRightOf="@+id/deskItem_imageView_Star1"
+        android:layout_toEndOf="@+id/deskItem_imageView_Star1"
+        android:layout_marginLeft="5dp" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:id="@+id/deskItem_imageView_Star3"
+        android:src="@drawable/star_off"
+        android:layout_alignTop="@+id/deskItem_imageView_Star2"
+        android:layout_toRightOf="@+id/deskItem_imageView_Star2"
+        android:layout_toEndOf="@+id/deskItem_imageView_Star2"
+        android:layout_marginLeft="5dp" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:id="@+id/deskItem_imageView_Star4"
+        android:src="@drawable/star_off"
+        android:layout_alignTop="@+id/deskItem_imageView_Star3"
+        android:layout_toRightOf="@+id/deskItem_imageView_Star3"
+        android:layout_toEndOf="@+id/deskItem_imageView_Star3"
+        android:layout_marginLeft="5dp" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:id="@+id/deskItem_imageView_Star5"
+        android:src="@drawable/star_off"
+        android:layout_alignTop="@+id/deskItem_imageView_Star4"
+        android:layout_toRightOf="@+id/deskItem_imageView_Star4"
+        android:layout_toEndOf="@+id/deskItem_imageView_Star4"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Фамилия Имя"
+        android:id="@+id/deskItem_TextView_Name"
+        android:textSize="20dp"
+        android:layout_below="@+id/deskItem_imageView_Star1"
+        android:layout_alignLeft="@+id/deskItem_imageView_Star1"
+        android:layout_alignStart="@+id/deskItem_imageView_Star1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Титул"
+        android:id="@+id/deskItem_TextView_Titul"
+        android:layout_below="@+id/deskItem_TextView_Name"
+        android:layout_alignLeft="@+id/deskItem_TextView_Name"
+        android:layout_alignStart="@+id/deskItem_TextView_Name"
+        android:layout_marginTop="1dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Добавлено фактов"
+        android:id="@+id/deskItem_TextView_Count"
+        android:layout_below="@+id/deskItem_TextView_Titul"
+        android:layout_alignLeft="@+id/deskItem_TextView_Titul"
+        android:layout_alignStart="@+id/deskItem_TextView_Titul"
+        android:layout_marginTop="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Сумма рейтингов:"
+        android:id="@+id/deskItem_TextView_Rating"
+        android:layout_below="@+id/deskItem_TextView_Count"
+        android:layout_alignLeft="@+id/deskItem_TextView_Count"
+        android:layout_alignStart="@+id/deskItem_TextView_Count"
+        android:layout_marginTop="3dp" />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Category Name"
+        android:id="@+id/category_item_textView_categoryName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginLeft="20dp"
+        android:textSize="22dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Category count"
+        android:id="@+id/category_item_textView_categoryCount"
+        android:layout_alignBottom="@+id/category_item_textView_categoryName"
+        android:layout_toRightOf="@+id/category_item_textView_categoryName"
+        android:layout_toEndOf="@+id/category_item_textView_categoryName"
+        android:textSize="14dp"
+        android:layout_marginLeft="17dp" />
+</RelativeLayout>
